@@ -64,6 +64,7 @@ int main(void)
 	*GPIOD_speed |= (1<<31);
 	*GPIOD_pupd |=(1<<31);
 	//
-    /* Loop forever */
+
 	*GPIOD_odr ^= (1<<15);
+
 }
