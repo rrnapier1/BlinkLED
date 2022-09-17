@@ -28,21 +28,21 @@
 //mask - (1<<3) enable AHB1ENR
 //Base addr for GPIOD - 0x40020C00
 //Offset - 0x00 mode
-//mask - (1<<0x8000000)
+//mask - (1<<30)
 //
 //Offset - 0x04 type
-//mask - (1<<0x00008000)
+//mask - (1<<15)
 //
 //Offset - 0x08 speed
-//mask - (1<<0x80000000)
+//mask - (1<<0x31)
 //
 //Offset - 0x0C pullup pull down
-//mask - (1<<8000000)
+//mask - (1<<31)
 //
 //Offset - 0x14 output data register (odr)
 //mask
-// on - |= (1<<0x00008000)
-// off - &= ~(1<<0x0008000)
+// on - |= (1<<15)
+// off - &= ~(1<<15)
 //////////////////////////////////
 
 
